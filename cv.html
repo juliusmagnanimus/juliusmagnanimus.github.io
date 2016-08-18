@@ -3,77 +3,144 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 	<title>hola</title>
+	<link href="css/main.css" rel="stylesheet">
 	<!-- MATERIAL ICON FONT -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link  href="css/materialize.css" rel="stylesheet">
+	<!-- MATERIALIZE -->
+    <link href="css/materialize.css" rel="stylesheet">
+
+    <link rel="stylesheet" id="switch_style" href="css/main.css">
 </head>
 <body>
-	<header id="home">
-		<div class="header-background">
-			<div class="v-card-holder">
-				<div class="container">
-					<div class="row">
-						<div class="col m12 s12">
-							<div id="profile" class="right">
-								<img src="image/mario.png"  class="responsive-img">
-								<div class="slant"></div>
-								<div class="btn-floating btn-large add-btn">	
-									<i class="materia-icons">add</i>
-								</div> 
-							</div>
-							<div class="card-content">
-								<div class="info-headings">
-									<h4 class="left">julio Cesar</h4>
-									<h6 class="left">Licenciado en computacion</h6>
-								</div>
-							</div>
-							<!--informaione de contacto-->
-							<div class="info">
-								<ul class="profile-list">
-									<li class="clearfix">
-										<span class="title">
-											<i class="material-icons">email</i>
-										</span>
-										<span>
-											correo@gmail.com
-										</span>
-									</li>
-									<li class="clearfix">
-										<span class="title">
-											<i class="material-icons">language</i>
-										</span>
-										<span>
-											sitio personal.com
-										</span>
-									</li>
-									<li class="clearfix">
-										<span class="title">
-											<i class="material-icons">phone</i>
-										</span>
-										<span>
-											55222515524
-										</span>
-									</li>
-								</ul>
-							</div>
-							<!--redes sociales-->
-							<div class="links">
-								<img src="image/facebook.png" width="50px" >
-								<img src="image/google-plus.png" width="50px" >
-								<img src="image/linkedin.png" width="50px" >
-								<img src="image/twitter.png" width="50px" >
-							</div>
+
+<!--==========================================
+                    HEADER
+===========================================-->
+<header id="home">
+    <div class="header-background ">
+        <div id="v-card-holder">
+            <!-- para poner el contenedor dond esta la foto  -->
+            <div class="container">
+                <div class="row">
+                    <div class="col m12 s12 ">
+                        <!-- V-CARD -->
+                        <div id="v-card" class="card">
+                            <!-- PROFILE PICTURE -->
+                            <div id="profile" class="right">
+                                <img class="img-responsive" src="image/mario.png">
+                                <!-- para poder en diagonal -->
+                                <div class="slant"></div>
+
+                                <div class="btn-floating btn-large add-btn">
+                                    <i class="material-icons">add</i>
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+
+                                <!-- NAME & STATUS -->
+                                <div class="info-headings">
+                                    <h4 class="text-uppercase left">Julius Magnanimus</h4>
+                                    <h6 class="text-capitalize left">Licenciado en Computacion</h6>
+                                </div>
+
+                                <!-- CONTACT INFO -->
+                                <div class="infos">
+                                    <ul class="profile-list">
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">email</i></span>
+                                            <span class="content">cbi.virumi@gmail.com</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">language</i></span>
+                                            <span class="content">yourpersonalwebsite.com</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">phone</i></span>
+                                            <span class="content">+525549516899</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">place</i></span>
+                                            <span class="content">San Rafael Atlixco 186, Iztapalapa</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <!--LINKS-->
+                                <div class="links">
+                                    <!-- FACEBOOK-->
+
+                                    <img src="image/facebook.png" width="50px">
+                                    <img src="image/google-plus.png" width="50px">
+                                    <img src="image/linkedin.png" width="50px">
+                                    <img src="image/twitter.png" width="50px">
+
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col m12">
+				<div id="about-card" class="card">
+					<div class="card-content">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+					</div>
+					<div id="about-btn" class="card-action">
+						<div class="about-btn">
+						<!--	boton de descarga-->
+						<a class="btn waves-effect waves-light">Descargar cv</a>
+						<a class="btn waves-effect waves-light">Contacto</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</header>
-		
-		<!--====================CRIPTS================-->	
-	 <script src="js/jquery-2.2.4.min.js"></script>
-	 <script src="js/materialize.min.js"></script>
-</body>
+	</div>
+</div>
+
+<!--edicacion -->
+<div id="educacion">
+	<div class="container">
+		<div class="section-title">
+			<h4>educaciòn</h4>
+		</div>
+		<div class="timeline-educacion">
+
+		</div>
+		<div class="time-line-block">
+			<div class="time-dot">
+				<i class="material-icon">school</i>
+			</div>
+			<div class="card-time-line-content">
+				<div class="card-caontent">
+					<h6>Media superior</h6>
+					<div class="timeline-title">
+						<h6><small>Cecyt</small></h6>
+						<h6><small>Jan 2007 </small></h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- ================== SCRIPTS ================== -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/materialize.min.js"></script>
 </body>
 </html>
