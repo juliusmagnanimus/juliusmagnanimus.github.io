@@ -5,13 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<title>hola</title>
-	<link href="css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+
 	<!-- MATERIAL ICON FONT -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- MATERIALIZE -->
     <link href="css/materialize.css" rel="stylesheet">
 
-    <link rel="stylesheet" id="switch_style" href="css/main.css">
+
 </head>
 <body>
 
@@ -29,7 +30,7 @@
                         <div id="v-card" class="card">
                             <!-- PROFILE PICTURE -->
                             <div id="profile" class="right">
-                                <img class="img-responsive" src="image/mario.png">
+                                <img class="responsive-img" src="image/mario.png">
                                 <!-- para poder en diagonal -->
                                 <div class="slant"></div>
 
@@ -42,7 +43,7 @@
 
                                 <!-- NAME & STATUS -->
                                 <div class="info-headings">
-                                    <h4 class="text-uppercase left">Julius Magnanimus</h4>
+                                    <h4 class="text-uppercase left">Julio Jimenez </h4>
                                     <h6 class="text-capitalize left">Licenciado en Computacion</h6>
                                 </div>
 
@@ -59,13 +60,12 @@
                                         </li>
                                         <li class="clearfix">
                                             <span class="title"><i class="material-icons">phone</i></span>
-                                            <span class="content">+525549516899</span>
+                                            <span class="content">+525522515529</span>
                                         </li>
                                         <li class="clearfix">
                                             <span class="title"><i class="material-icons">place</i></span>
                                             <span class="content">San Rafael Atlixco 186, Iztapalapa</span>
                                         </li>
-
                                     </ul>
                                 </div>
 
@@ -80,7 +80,7 @@
 
                                 </div>
                             </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -88,21 +88,27 @@
         </div>
     </div>
 </header>
-<div class="about">
+
+<!--==========================================
+                   ABOUT
+===========================================-->
+
+<div id="about" class="section">
 	<div class="container">
 		<div class="row">
 			<div class="col m12">
 				<div id="about-card" class="card">
 					<div class="card-content">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore tempora eum harum nam, unde quo, labore dolor minima natus fuga! Autem, explicabo. Asperiores magnam deserunt consequuntur, rem perferendis iure aliquam?
+						</p>
 					</div>
+					<!-- botones -->
 					<div id="about-btn" class="card-action">
 						<div class="about-btn">
-						<!--	boton de descarga-->
-						<a class="btn waves-effect waves-light">Descargar cv</a>
-						<a class="btn waves-effect waves-light">Contacto</a>
+							<!-- boton de descargar -->
+							<a class="waves-effect waves-light btn">Descargar CV</a>
+							<a class="waves-effect waves-light btn">Contacto</a>
 						</div>
 					</div>
 				</div>
@@ -111,31 +117,217 @@
 	</div>
 </div>
 
-<!--edicacion -->
-<div id="educacion">
-	<div class="container">
-		<div class="section-title">
-			<h4>educaciòn</h4>
-		</div>
-		<div class="timeline-educacion">
+<!--==========================================
+                   EDUCATION
+===========================================-->
 
-		</div>
-		<div class="time-line-block">
-			<div class="time-dot">
-				<i class="material-icon">school</i>
-			</div>
-			<div class="card-time-line-content">
-				<div class="card-caontent">
-					<h6>Media superior</h6>
-					<div class="timeline-title">
-						<h6><small>Cecyt</small></h6>
-						<h6><small>Jan 2007 </small></h6>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<section id="education" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="center-align">Educación</h4>
+        </div>
+
+        <div id="timeline-education">
+
+            <!-- FIRST TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot" ><i class="material-icons">school</i></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content" >
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Superior</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Universidad Autonoma Metropolitana Unidad Iztapalapa</small>
+                            </h6>
+                            <h6>
+                                <small>Sep 2011 - ...</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Continuo mis estudios en esta Universidad en la Licenciatura en Computación.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- SECOND TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot" ><h6>S</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content" >
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Spring Workshop</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Certificatic</small>
+                            </h6>
+                            <h6>
+                                <small>Julio 2016</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            I completed this course from this prestigious institution.
+                            I successful completed all the credits without any fallout and got A grade overall.
+                        </p>
+                    </div>
+                </div>
+            </div>
+						<div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot" ><h6>S</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content" >
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Spring Workshop</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>school</small>
+                            </h6>
+                            <h6>
+                                <small>Julio 2016</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            I completed this course from this prestigious institution.
+                            I successful completed all the credits without any fallout and got A grade overall.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==========================================
+                   habilidades
+===========================================-->
+<section id="skills" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-center">Habilidades</h4>
+        </div>
+        <div class="row">
+            <div class="col m12 s12">
+                <div id="skills-card" class="card" style="visibility: visible;">
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col m4 l4 s12">
+                                <!-- primera secion de habildades -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Professional</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>HTML5</span></div>
+                                    <div class="skillbar-bar" style="width: 80%; visibility: visible;">
+                                    </div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>CSS3</span></div>
+                                    <div class="skillbar-bar" style="width: 80%; visibility: visible;  "></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>jQuery</span></div>
+                                    <div class="skillbar-bar" style="width: 50%; visibility: visible;">
+
+                                    </div>
+                                    <div class="skill-bar-percent">50%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>PHP</span></div>
+                                    <div class="skillbar-bar" style="width: 68%; visibility: visible;"></div>
+                                    <div class="skill-bar-percent">68%</div>
+                                </div>
+                            </div>
+
+
+                            <div class="col m4 s4 12">
+                                <!-- SECOND SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Personal</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>Comunicación</span></div>
+                                    <div class="skillbar-bar" style="width: 50%; visibility: visible;"></div>
+                                    <div class="skill-bar-percent">50%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>Trabajo en equipo</span></div>
+                                    <div class="skillbar-bar" style="width: 60%; visibility: visible;"></div>
+                                    <div class="skill-bar-percent">60%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>Creatividad</span></div>
+                                    <div class="skillbar-bar" style="width: 70%; visibility: visible;"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>Dedicación</span></div>
+                                    <div class="skillbar-bar" style="width: 70%;; visibility: visible;"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                            </div>
+
+
+                            <div class="col m4 s4 12">
+                                <!-- THIRD SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Software</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>Adobe Illustrator</span></div>
+                                    <div class="skillbar-bar" style="width: 40%;; visibility: visible;"></div>
+                                    <div class="skill-bar-percent">40%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>Eclipse</span></div>
+                                    <div class="skillbar-bar" style="width: 70%;; visibility:"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>Sublime Text</span></div>
+                                    <div class="skillbar-bar" style="width: 60%;; visibility: visible;"></div>
+                                    <div class="skill-bar-percent">60%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" >
+                                    <div class="skillbar-title"><span>Spring Tools Suite</span></div>
+                                    <div class="skillbar-bar" style="width: 50%;; visibility: visible;"></div>
+                                    <div class="skill-bar-percent">50%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
